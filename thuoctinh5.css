@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+.khung{
+    display: flex;
+    min-width: 1440px;
+    min-height: 1024px;
+    flex-wrap: wrap;
+}
+.thanhben{
+    width: 78px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+
+}
+.othanhben{
+    width: 78px;
+    height: 325px;
+    padding-top: 159px;
+}
+.oicon{
+    display:flex;
+    flex-direction: column;
+    gap: 47px;
+}
+.anh1{
+    width: 24px;
+    height: 24px;
+    opacity: 0.2;
+}
+.phanchinh{
+    flex:1;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.odau{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.oLoiChao{
+    width: 233px;
+    height: 72px;
+}
+.loiChao{
+    width: 233px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #3E435D;
+}
+.ngay{
+    width: 139px;
+    height: 24px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #Ada7a7;
+}
+.odaubenphai{
+    display: flex;
+    width: 498px;
+    height: 52px;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.otimkiem{
+    width: 354px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap:12px
+}
+.nutedit{
+    padding: 10px 24px;
+    background-color: #4182F9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.anh2{
+    width: 52px;
+    height: 52px;
+}
+.khungND{
+    width: 1282px;
+    height: 856px;  
+}
+.oanh{
+    width: 1282px;
+    height: 100px;
+}
+.oGT{
+    width: 1218px;
+    height: 653px;
+    gap: 30px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.oGT-dau{
+    width: 1218px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.oGT-CN{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    outline: none;
+    gap: 24px;
+}
+.ten{
+    width: 132px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.diachi{
+    width: 198px;
+    height: 24px;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.onhap{
+    width: 1218px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.odien{
+    width: 1218px;
+    height: 314px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 25px;
+    column-gap: 32px;
+}
+input[type=text]{
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding:14px 20px 14px 20px;
+    width: 100%;
+}
+select{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding:14px 20px 14px 20px;
+    width: 100%;
+    opacity: 0.4;
+}
+.ocuoibentrai{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+.osms{
+    display: flex;
+    gap:20px;
+}
+.ocongemail{
+    background-color: rgba(65, 130, 249, 0.1);
+    height: 44px;
+    width: 209px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DiaChi{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #4182f9;
+}
+.otron{
+    height: 48px;
+    width: 48px;
+    background-color: rgba(65, 130, 249, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
