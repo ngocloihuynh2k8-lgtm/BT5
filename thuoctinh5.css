@@ -9,8 +9,8 @@ body{
 }
 .khung{
     display: flex;
-    width: 1440px;
-    height: 1024px;
+    min-width: 1440px;
+    min-height: 1024px;
     flex-wrap: wrap;
 }
 .thanhben{
